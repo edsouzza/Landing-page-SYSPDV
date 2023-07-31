@@ -69,6 +69,8 @@ header{
     border-bottom: 1px solid rgba(51, 51, 51, 0.314);
     position: fixed;
     width: 100%;    
+    transition: .1s;
+    z-index: 999;
 }
 header > .interface{
    display: flex;
@@ -92,6 +94,10 @@ header nav ul li{
    display: inline-block;
    padding: 15px 40px;
    margin-top: 1.5rem;
+}
+header.rolagem{
+    background-color: rgba(0, 0, 0, 0.915);
+    padding: 5px 4%;
 }
 /* /ESTILO DO CABECALHO -> ( HEADER ) */
 
