@@ -99,6 +99,9 @@ header nav ul li{
 section.home{
     padding: 5px 4%;    
     height: 100vh;
+    background-image: url(/images/bg-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 section.home .flex{
     align-items: center;
@@ -153,6 +156,9 @@ section.home .btn-baixar{
 section.sobre{
     padding: 300px 4%;
     height: 100vh;    
+    background-image: url(/images/bg-empresa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 section.sobre .flex{
     align-items: center;
@@ -182,8 +188,10 @@ section.sobre .btn-baixar{
 /* ESTILO DA VIDEOS*/
 section.videos{
     padding: 120px 4%;
-    /* background-color: #ffc3f3; */
     height: 100vh;
+    background-image: url(/images/bg-videos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 section.videos .flex{
     align-items: center;
@@ -194,10 +202,11 @@ section.videos .videos-list{
     /* background-color: #97b324; */
     padding: 30px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 section.videos .videos-list .ratio{
     margin-bottom: 30px;
+    box-shadow: 0px 2px 25px var(--primary-color);   
 }
 section.videos .videos-list p{
     color: var(--secundary-color);
@@ -213,6 +222,9 @@ section.videos .btn-baixar{
 section.licenca{
     padding: 120px 4%;
     height: 100vh;
+    background-image: url(/images/bg-licenca.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 section.licenca .flex{
     align-items: center;
@@ -222,7 +234,6 @@ section.licenca .flex{
 section.licenca .txt-licenca p{
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.739);
-    text-align: justify;
     letter-spacing: 0.6px;
 }
 section.licenca .aria-img-licenca img{
