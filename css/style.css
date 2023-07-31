@@ -76,7 +76,6 @@ header > .interface{
    justify-content: space-between;   
 }
 header a{
-    /* color: #5C5C5C; */
     color:  #faa701;
     text-decoration: none;
     display: inline-block;
@@ -92,6 +91,7 @@ header nav ul{
 header nav ul li{
    display: inline-block;
    padding: 15px 40px;
+   margin-top: 1.5rem;
 }
 /* /ESTILO DO CABECALHO -> ( HEADER ) */
 
@@ -130,9 +130,6 @@ section.home .aria-img-home img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
     width: 450px;
-    height: 550px;
-    /* border: 1px solid #ba5a23; */
-    /* margin-top: -40px; */
 }
 section.home a{
     color: var(--primary-color);
@@ -210,8 +207,6 @@ section.videos .btn-baixar{
     margin-left: 150px;
     margin-top: -80px;
  }
-
-
 /* /ESTILO DA VIDEOS */
 
 /* ESTILO DA LICENÇA*/
