@@ -115,9 +115,10 @@ section.home .flex{
     gap: 90px;
     margin-top: 130px;
 }
-section.home .bi{
+section.home .bi-check-lg{
    color: var(--primary-color);
-   font-weight: bold;
+   font-weight: 800;
+   font-size: 22px;
 }
 section.home .txt-home .title{
     margin-top: 50px;
@@ -156,7 +157,7 @@ section.home .interface .box-cookies{
     background-color: rgba(240, 248, 255, 0.941);
     align-items: center;
     color: #333;
-    margin-top: -20px;
+    margin-top: -40px;
     padding: 30px 1%;
     border-radius: 3px;
     font-weight: 600;
