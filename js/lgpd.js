@@ -5,7 +5,7 @@ let lgpdHtml =
         <div class="lgpd--left">
             <p>
                 Nós utilizamos cookies para melhorar sua experiência de usuário.
-                Para maiores esclarecimentos, leia nossa <a href="#">Política de Privacidade</a>
+                Para maiores esclarecimentos, leia nossa <a href="assets/politicas.pdf" target="_blank" rel="noopener noreferrer" class="link">Política de Privacidade</a>
             </p>
         </div>
         <div class="lgpd--right">
