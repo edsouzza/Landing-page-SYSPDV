@@ -1,11 +1,37 @@
-if(!localStorage.nossoCooke){
-    document.querySelector('.box-cookies').classList.remove('hide')
-}
-const acceptCookies = () => {
-    document.querySelector('.box-cookies').classList.add('hide')
-    localStorage.setItem("nossoCooke", "accept")
-}
+let lgpdUrl  = 'https://jsonplaceholder.typicode.com/posts'
+let lgpdHtml = 
+`
+    <div class="lgpd container">
+        <div class="lgpd--left">
+            <p>
+                Nós utilizamos cookies para melhorar sua experiência de usuário.
+                Para maiores esclarecimentos, leia nossa <a href="#">Política de Privacidade</a>
+            </p>
+        </div>
+        <div class="lgpd--right">
+            <button>Aceitar</button>
+        </div>
+        </div>
+    <link rel="stylesheet" href="/css/lgpd.css">
+`
 
-const btnCookies = document.querySelector(".btn-cookies")
+let lsContent = localStorage.getItem('lgpd')
 
-btnCookies.addEventListener('click', acceptCookies)
+if(!lsContent){
+    document.body.innerHTML += lgpdHtml
+
+    let lgpdArea   = document.querySelector('.lgpd')
+    let lgpdButton = lgpdArea.querySelector('button')
+
+    lgpdButton.addEventListener('click', async()=>{
+        lgpdArea.remove()
+
+        let result = await fetch(lgpdUrl)
+        let json   = await result.json()
+        
+        if(json.error != ''){
+            let id = json.id 
+            localStorage.setItem('lgpd', id)
+        }              
+    })
+}
