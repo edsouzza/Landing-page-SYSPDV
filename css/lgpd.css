@@ -1,0 +1,25 @@
+section.home .interface .box-cookies{
+    justify-content: space-between;
+    background-color: rgba(240, 248, 255, 0.95);
+    align-items: center;
+    color: #333;
+    margin-top: -55px;
+    padding: 30px 1%; 
+    border-radius: 3px;
+    font-weight: 600;
+    box-shadow: 0px 0px 8px #ffc042;
+    height: 60px;
+    width: 100%;
+}
+section.home .interface .box-cookies .lgpd--right .btn-cookies{
+    background-color: var(--primary-color);
+    color: var(--secundary-color);
+    border: none;   
+}
+section.home .interface .box-cookies .lgpd--left p{
+    margin-top: 20px;
+}
+
+.hide{
+    display: none;
+}  
