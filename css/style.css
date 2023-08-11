@@ -351,4 +351,9 @@ footer .rodape .aria-logo-footer img{
     justify-content: center;
 }
 
+.whatsapp-link:hover{
+    box-shadow: 0px 0px 8px #00fd5d;
+    transform : scale(1.05);
+}
+
 /* /ESTILO DO WHATSAPP */
