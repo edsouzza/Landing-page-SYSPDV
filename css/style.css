@@ -333,3 +333,22 @@ footer .rodape .aria-logo-footer img{
     max-width: 130px; 
 }
 /* /ESTILO DO FOOTER */
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d365b8;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* /ESTILO DO WHATSAPP */
