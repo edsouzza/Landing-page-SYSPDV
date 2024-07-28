@@ -69,7 +69,7 @@ a{
 
 /* ESTILO DO CABECALHO -> ( HEADER ) */
 header{
-    padding: 30px 4%;
+    padding: 10px 4%;
     border-bottom: 1px solid rgba(51, 51, 51, 0.314);
     position: fixed;
     width: 100%;    
@@ -80,6 +80,9 @@ header > .interface{
    display: flex;
    align-items: center;
    justify-content: space-between;   
+}
+header > .interface .logo .imgLogo{
+    width: 160px;
 }
 header a{
     color:  #faa701;
@@ -126,11 +129,12 @@ section.home .bi-check-lg{
    font-size: 22px;
 }
 section.home .txt-home .title{
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 2rem;
 }
 section.home .txt-home p{
     color: rgba(255, 255, 255, 0.739);
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 23px;
     text-align: justify;
 }
@@ -139,7 +143,7 @@ section.home .txt-home h1 span{
 }
 section.home .txt-home p{
     color: rgba(255, 255, 255, 0.739);
-    margin: 60px 0;
+    /* margin: 60px 0; */
 }
 section.home .aria-img-home img{
     position: relative;
@@ -217,7 +221,8 @@ section.sobre .btn-baixar{
     margin-top: 60px;
  }
  section.sobre .title{
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
+    margin-top: -10rem;
  }
 /* /ESTILO DO SOBRE */
 
@@ -240,6 +245,11 @@ section.videos .videos-list{
     width: 100%;
     margin: 0 auto;    
 }
+section.videos .videos-list .title{
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+    /* background-color: red; */
+}
 section.videos .videos-list .ratio{
     margin-bottom: 30px;
     box-shadow: 0px 2px 25px var(--primary-color);   
@@ -259,6 +269,7 @@ section.licenca{
     padding: 120px 4%;
     height: 100vh;
     background-image: url(/images/bg-licenca.png);
+    /* background-color: red; */
     background-repeat: no-repeat;
     background-size: cover;   
 }
@@ -268,7 +279,7 @@ section.licenca .flex{
     gap: 60px;
 }
 section.licenca .txt-licenca p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0.739);
     letter-spacing: 0.6px;
 }
@@ -313,6 +324,7 @@ footer .rodape{
 }
 footer .rodape h2{
     margin-top: 1em;
+    font-size: 2rem;
 }
 footer .rodape .aria-contato{
     flex-direction: row;
@@ -326,11 +338,11 @@ footer .rodape .aria-contato p:hover{
     color: var(--primary-color);
 }
 footer .rodape .aria-contato p{
-    font-size: 18px;
+    font-size: 15px;
     color: var(--secundary-color);
 }
 footer .rodape .aria-logo-footer img{
-    max-width: 130px; 
+    max-width: 120px; 
 }
 /* /ESTILO DO FOOTER */
 .whatsapp-link{
