@@ -203,13 +203,14 @@ section.sobre{
 }
 section.sobre .flex{
     align-items: center;
-    margin-top: 30px;
     gap: 60px;
 }
 section.sobre .txt-sobre p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: rgba(255, 255, 255, 0.739);
     letter-spacing: 0.6px;
+    margin-top: -2.5rem;
+    
 }
 section.sobre .aria-img-sobre img{
     position: relative;
@@ -222,7 +223,7 @@ section.sobre .btn-baixar{
  }
  section.sobre .title{
     margin-bottom: 10rem;
-    margin-top: -10rem;
+    margin-top: -8rem;
  }
 /* /ESTILO DO SOBRE */
 
